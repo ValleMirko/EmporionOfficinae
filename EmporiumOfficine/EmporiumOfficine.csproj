@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,11 +68,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="andamentoProdotti.aspx" />
     <Content Include="App_Data\Carrello.mdf" />
     <Content Include="App_Data\Carrello_log.ldf" />
     <Content Include="default.aspx" />
     <Content Include="errore.aspx" />
     <Content Include="gestioneCarrello.aspx" />
+    <Content Include="gestioneProdotti.aspx" />
     <Content Include="IMG\3d-background-neon-ultraviolet-purple-3840x2160-2562.jpg" />
     <Content Include="IMG\4Puntelli.jpg" />
     <Content Include="IMG\abstract-swirls-purple-background-vibrant-curved-lines-5000x3000-5942.jpg" />
@@ -119,6 +122,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adoNet_sqlServer.cs" />
+    <Compile Include="andamentoProdotti.aspx.cs">
+      <DependentUpon>andamentoProdotti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="andamentoProdotti.aspx.designer.cs">
+      <DependentUpon>andamentoProdotti.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,6 +149,13 @@
     </Compile>
     <Compile Include="gestioneCarrello.aspx.designer.cs">
       <DependentUpon>gestioneCarrello.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestioneProdotti.aspx.cs">
+      <DependentUpon>gestioneProdotti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestioneProdotti.aspx.designer.cs">
+      <DependentUpon>gestioneProdotti.aspx</DependentUpon>
     </Compile>
     <Compile Include="modificaAccount.aspx.cs">
       <DependentUpon>modificaAccount.aspx</DependentUpon>

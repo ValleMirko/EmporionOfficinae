@@ -11,7 +11,7 @@ namespace EmporiumOfficine
 {
 
 
-    public partial class VisualizzazioneProdotti
+    public partial class andamentoProdotti
     {
 
         /// <summary>
@@ -24,31 +24,13 @@ namespace EmporiumOfficine
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controllo cmbCategorie.
+        /// Controllo btnProdotti.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbCategorie;
-
-        /// <summary>
-        /// Controllo btnStorico.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnStorico;
-
-        /// <summary>
-        /// Controllo btnCarrello.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnCarrello;
+        protected global::System.Web.UI.WebControls.LinkButton btnProdotti;
 
         /// <summary>
         /// Controllo Label2.
@@ -105,39 +87,39 @@ namespace EmporiumOfficine
         protected global::System.Web.UI.WebControls.DropDownList cmbAdmin;
 
         /// <summary>
-        /// Controllo divCarte.
+        /// Controllo divGrafico1.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel divCarte;
+        protected global::System.Web.UI.WebControls.Panel divGrafico1;
 
         /// <summary>
-        /// Controllo divStorico1.
+        /// Controllo chartProdotti.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel divStorico1;
+        protected global::System.Web.UI.DataVisualization.Charting.Chart chartProdotti;
 
         /// <summary>
-        /// Controllo lblStorico.
+        /// Controllo divGrafico2.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblStorico;
+        protected global::System.Web.UI.WebControls.Panel divGrafico2;
 
         /// <summary>
-        /// Controllo divStorico.
+        /// Controllo chartCategorie.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel divStorico;
+        protected global::System.Web.UI.DataVisualization.Charting.Chart chartCategorie;
     }
 }

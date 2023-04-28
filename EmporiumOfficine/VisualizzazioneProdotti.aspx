@@ -11,10 +11,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="icon" href="./IMG/icons8-negozio-40.png" type="image/ico" />
-    <title>Elenco Prodotti</title>
+    <title>Emporium Officinea</title>
     <style>
         body {
-            background: url(./IMG/abstract.jpg) no-repeat center fixed;
+            background: url(./IMG/TevereEmporium.jpg) no-repeat center fixed;
             background-size: cover;
         }
 
@@ -85,12 +85,12 @@
         }
 
         .card-footer {
-            background-color: #AB47BC;
-            color: #fff
+            background-color: #75151e;
+            color: #ebebe8
         }
 
         h2 {
-            color: rgb(78, 0, 92);
+            color: white;
             letter-spacing: 2px !important
         }
 
@@ -111,7 +111,7 @@
 
         @media (max-width: 700px) {
             h2 {
-                color: rgb(78, 0, 92);
+                color: white;
                 font-size: 17px
             }
 
@@ -140,27 +140,27 @@
         }
 
         #icoFa:hover {
-            background-color: #3b5998;
+            background-color: #3b5998; /* blu */
         }
 
         #icoTw:hover {
-            background-color: #55acee;
+            background-color: #55acee; /*azzurro*/
         }
 
         #icoGo:hover {
-            background-color: #dd4b39;
+            background-color: #dd4b39; /*rosso chiaro*/
         }
 
         #icoIn:hover {
-            background-color: #ac2bac;
+            background-color: #eb87eb; /*Viola chiaro*/
         }
 
         #icoLi:hover {
-            background-color: #0082ca;
+            background-color: #0082ca; /*azzuro scuro*/
         }
 
         #icoGi:hover {
-            background-color: #333333;
+            background-color: #333333; /*nero*/
         }
 
         .form-input i {
@@ -213,7 +213,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(157,121,231);">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(141, 0, 0);">
             <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">

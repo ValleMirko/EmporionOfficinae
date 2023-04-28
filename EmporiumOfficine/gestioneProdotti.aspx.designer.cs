@@ -11,7 +11,7 @@ namespace EmporiumOfficine
 {
 
 
-    public partial class visualizzaCarrello
+    public partial class gestioneProdotti
     {
 
         /// <summary>
@@ -31,6 +31,24 @@ namespace EmporiumOfficine
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton btnProdotti;
+
+        /// <summary>
+        /// Controllo btnAndamento.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnAndamento;
+
+        /// <summary>
+        /// Controllo btnNuovoProdotto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnNuovoProdotto;
 
         /// <summary>
         /// Controllo Label2.
@@ -87,40 +105,22 @@ namespace EmporiumOfficine
         protected global::System.Web.UI.WebControls.DropDownList cmbAdmin;
 
         /// <summary>
-        /// Controllo divCarrello.
+        /// Controllo tab.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder divCarrello;
+        protected global::System.Web.UI.WebControls.PlaceHolder tab;
 
         /// <summary>
-        /// Controllo containerFluid.
+        /// Controllo contenutoTab.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel containerFluid;
-
-        /// <summary>
-        /// Controllo carta.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel carta;
-
-        /// <summary>
-        /// Controllo lblCarrello.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCarrello;
+        protected global::System.Web.UI.WebControls.PlaceHolder contenutoTab;
 
         /// <summary>
         /// Controllo lblErrore.
@@ -132,85 +132,22 @@ namespace EmporiumOfficine
         protected global::System.Web.UI.WebControls.Label lblErrore;
 
         /// <summary>
-        /// Controllo imgCarrello.
+        /// Controllo divNewProd.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgCarrello;
+        protected global::System.Web.UI.WebControls.Panel divNewProd;
 
         /// <summary>
-        /// Controllo cardBody.
+        /// Controllo Panel2.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel cardBody;
-
-        /// <summary>
-        /// Controllo divTotale.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel divTotale;
-
-        /// <summary>
-        /// Controllo btnSvuota.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSvuota;
-
-        /// <summary>
-        /// Controllo btnAcquista.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAcquista;
-
-        /// <summary>
-        /// Controllo divFooter.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel divFooter;
-
-        /// <summary>
-        /// Controllo lblTotale.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTotale;
-
-        /// <summary>
-        /// Controllo divConferma.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder divConferma;
-
-        /// <summary>
-        /// Controllo divUser.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel divUser;
+        protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
         /// Controllo lblTitolo.
@@ -222,13 +159,67 @@ namespace EmporiumOfficine
         protected global::System.Web.UI.WebControls.Label lblTitolo;
 
         /// <summary>
-        /// Controllo btnConferma.
+        /// Controllo txtNomeProd.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConferma;
+        protected global::System.Web.UI.WebControls.TextBox txtNomeProd;
+
+        /// <summary>
+        /// Controllo txtDescrProd.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDescrProd;
+
+        /// <summary>
+        /// Controllo fileUp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fileUp;
+
+        /// <summary>
+        /// Controllo txtPrezzoProd.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPrezzoProd;
+
+        /// <summary>
+        /// Controllo chkValidita.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkValidita;
+
+        /// <summary>
+        /// Controllo cmbCategorie.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList cmbCategorie;
+
+        /// <summary>
+        /// Controllo btnAggiungi.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAggiungi;
 
         /// <summary>
         /// Controllo btnIndietro.
@@ -240,129 +231,156 @@ namespace EmporiumOfficine
         protected global::System.Web.UI.WebControls.Button btnIndietro;
 
         /// <summary>
-        /// Controllo lbl.
+        /// Controllo lblErroreInserimento.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl;
+        protected global::System.Web.UI.WebControls.Label lblErroreInserimento;
 
         /// <summary>
-        /// Controllo lblErr.
+        /// Controllo txtValid.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErr;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator txtValid;
 
         /// <summary>
-        /// Controllo divAcquista.
+        /// Controllo divModifica.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder divAcquista;
+        protected global::System.Web.UI.WebControls.Panel divModifica;
 
         /// <summary>
-        /// Controllo Panel1.
+        /// Controllo Panel3.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
+        protected global::System.Web.UI.WebControls.Panel Panel3;
 
         /// <summary>
-        /// Controllo lblTipo.
+        /// Controllo lblTitoloMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTipo;
+        protected global::System.Web.UI.WebControls.Label lblTitoloMod;
 
         /// <summary>
-        /// Controllo txtNum.
+        /// Controllo txtNomeMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNum;
+        protected global::System.Web.UI.WebControls.TextBox txtNomeMod;
 
         /// <summary>
-        /// Controllo txtNome.
+        /// Controllo txtDescrMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNome;
+        protected global::System.Web.UI.WebControls.TextBox txtDescrMod;
 
         /// <summary>
-        /// Controllo txtGiorno.
+        /// Controllo chkFileMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtGiorno;
+        protected global::System.Web.UI.WebControls.CheckBox chkFileMod;
 
         /// <summary>
-        /// Controllo txtMese.
+        /// Controllo fileUpMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMese;
+        protected global::System.Web.UI.WebControls.FileUpload fileUpMod;
 
         /// <summary>
-        /// Controllo txtAnno.
+        /// Controllo txtPrezzoMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAnno;
+        protected global::System.Web.UI.WebControls.TextBox txtPrezzoMod;
 
         /// <summary>
-        /// Controllo cmbPagamento.
+        /// Controllo chkValiditaMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbPagamento;
+        protected global::System.Web.UI.WebControls.CheckBox chkValiditaMod;
 
         /// <summary>
-        /// Controllo btnConfermaAcquisto.
+        /// Controllo cmbCategoriaMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConfermaAcquisto;
+        protected global::System.Web.UI.WebControls.DropDownList cmbCategoriaMod;
 
         /// <summary>
-        /// Controllo btnIndietroAcquisto.
+        /// Controllo btnModificaProd.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnIndietroAcquisto;
+        protected global::System.Web.UI.WebControls.Button btnModificaProd;
 
         /// <summary>
-        /// Controllo lblErroreAcquisto.
+        /// Controllo btnIndietroMod.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErroreAcquisto;
+        protected global::System.Web.UI.WebControls.Button btnIndietroMod;
+
+        /// <summary>
+        /// Controllo lblErroreModifica.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErroreModifica;
+
+        /// <summary>
+        /// Controllo txtValidMod.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator txtValidMod;
+
+        /// <summary>
+        /// Controllo lblIdProd.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblIdProd;
     }
 }

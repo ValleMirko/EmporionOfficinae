@@ -63,7 +63,7 @@
                 background-color: #25272a;
                 box-shadow: none;
                 color: #fff;
-                border-color: #4f63e7
+                border-color: #5469f3
             }
 
         .form-check-label {

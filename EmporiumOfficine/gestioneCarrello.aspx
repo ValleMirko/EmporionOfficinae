@@ -38,7 +38,7 @@
         }
 
         .card-1 {
-            box-shadow: 2px 2px 10px 0px rgb(190, 108, 170)
+            box-shadow: 2px 2px 10px 0px #fff
         }
 
         hr {
@@ -50,7 +50,7 @@
         }
 
         .change-color {
-            color: #AB47BC !important
+            color: #75151e !important
         }
 
         .card-2 {
@@ -59,7 +59,7 @@
 
         .fa-circle.active {
             font-size: 8px;
-            color: #AB47BC
+            color: #75151e
         }
 
         .fa-circle {
@@ -72,7 +72,7 @@
         }
 
         .progress-bar {
-            background-color: #AB47BC !important
+            background-color: #75151e !important
         }
 
         .progress {
@@ -91,12 +91,12 @@
         }
 
         .card-footer {
-            background-color: #AB47BC;
+            background-color: #75151e;
             color: #fff
         }
 
         h2 {
-            color: rgb(78, 0, 92);
+            color: #75151e;
             letter-spacing: 2px !important
         }
 
@@ -117,7 +117,7 @@
 
         @media (max-width: 700px) {
             h2 {
-                color: rgb(78, 0, 92);
+                color: #75151e;
                 font-size: 17px
             }
 
@@ -158,7 +158,7 @@
         }
 
         #icoIn:hover {
-            background-color: #ac2bac;
+            background-color: #154c75;
         }
 
         #icoLi:hover {
@@ -205,7 +205,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(63,3,133);">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #75151e;">
             <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item" style="margin-left: 10px; margin-right: 10px;">
